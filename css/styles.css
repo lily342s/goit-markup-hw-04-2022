@@ -243,6 +243,32 @@ p {
     margin-left: 30px;
 }
 
+.features-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--third-background-color) ;
+}
+
+.icon-antenna::before {
+  background-image: url(../images/hw-04/studio-icons/antenna.svg);
+}
+
+.icon-clock::before {
+  background-image: url(../images/hw-04/studio-icons/clock.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../images/hw-04/studio-icons/diagram.svg);
+}
+
+.icon-astronaut::before {
+  background-image: url(../images/hw-04/studio-icons/astronaut.svg);
+  
+}
 .features-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
