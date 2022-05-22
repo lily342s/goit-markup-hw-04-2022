@@ -229,6 +229,7 @@ p {
 }
 
 .features-title {
+  margin-top: 30px;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -245,6 +246,16 @@ p {
 .icon-fetures {
   width: 70px;
   height: 70px;
+}
+
+.box-icon-features {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--third-background-color);
 }
 
 /* .features-item::before {
