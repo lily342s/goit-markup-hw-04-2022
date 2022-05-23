@@ -52,6 +52,10 @@ p {
   margin: -1px;
 }
 
+.link {
+  color: red;
+}
+
 .page-header {
   border-bottom: 1px solid var(--border-bottom-color);
 }
@@ -357,8 +361,36 @@ img {
   padding-bottom: 30px;
 }
 
+.team-icon-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
 
-/* Футер */
+.team-icon {
+  fill: currentColor;
+}
+
+.team-icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-icon-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.team-icon-link:hover,
+.team-icon-link:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -475,4 +507,5 @@ ul {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
