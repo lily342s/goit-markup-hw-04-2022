@@ -135,6 +135,9 @@ p {
   padding-top: 32px;
   padding-bottom: 32px;
 
+  display: flex;
+  align-items: center;
+
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -143,6 +146,20 @@ p {
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
+}
+
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* Основна секція герой */
