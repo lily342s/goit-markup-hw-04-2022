@@ -7,7 +7,8 @@
   --third-background-color: #f5f4fa;
   --footer-address-color: rgba(255, 255, 255, 0.6);
   --border-bottom-color: #ECECEC;
-  --border-portfolio-color: #EEEEEE
+  --border-portfolio-color: #EEEEEE;
+  --main-icon-fill-color: #AFB1B8;
 }
 
 body {
@@ -53,7 +54,7 @@ p {
 }
 
 .link {
-  color: red;
+  fill: currentColor;
 }
 
 .page-header {
@@ -147,6 +148,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
@@ -368,7 +370,7 @@ img {
 }
 
 .team-icon {
-  fill: currentColor;
+  fill: var(--main-icon-fill-color);
 }
 
 .team-icon-item:not(:last-child) {
@@ -387,7 +389,11 @@ img {
 .team-icon-link:hover,
 .team-icon-link:focus {
   background-color: var(--accent-color);
-  color: var(--white-color);
+}
+
+.team-icon-link:hover .team-icon,
+.team-icon-link:focus .team-icon {
+  fill: var(--white-color);
 }
 
 /* FOOTER */
@@ -432,7 +438,18 @@ img {
   margin-top: 9px;
 }
 
-/* FOOTER_SOCIAL */
+/* ПОСТІЙНІ КЛІЄНТИ */
+
+.trademark-item {
+  display: inline-block;
+}
+
+.icon-trademark {
+  fill: var(--main-icon-fill-color);
+}
+
+
+/* FOOTER-SOCIAL */
 
 .social-title {
   color: var(--white-color);
