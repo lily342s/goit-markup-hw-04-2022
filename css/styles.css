@@ -440,8 +440,38 @@ img {
 
 /* ПОСТІЙНІ КЛІЄНТИ */
 
+.trademark-list {
+  display: flex;
+}
+
 .trademark-item {
-  display: inline-block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--main-icon-fill-color);
+  border-radius: 4px;
+}
+
+.trademark-item:not(:last-child){
+margin-right: 30px;
+}
+
+.trademark-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trademark-link:hover .icon-trademark,
+.trademark-link:focus .icon-trademark {
+  fill: var(--accent-color);
+}
+
+.trademark-link:hover,
+.trademark-link:focus {
+  border: 1px solid var(--accent-color);
+  /* border-radius: 4px; */
 }
 
 .icon-trademark {
