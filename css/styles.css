@@ -390,6 +390,16 @@ img {
   color: var(--white-color);
 }
 
+/* FOOTER */
+
+.footer-section {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-address {
+  margin-right: 70px;
+}
 
 .page-footer {
   padding-top: 60px;
@@ -421,6 +431,46 @@ img {
 .address-item + .address-item {
   margin-top: 9px;
 }
+
+/* FOOTER_SOCIAL */
+
+.social-title {
+  color: var(--white-color);
+  font-size: inherit;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.social-list {
+  margin-top: 20px;
+  display: flex;
+}
+
+.footer-icon {
+  fill: var(--white-color);
+}
+
+.footer-icon-link {
+width: 44px;
+height: 44px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
 
 /* ПОРТФОЛІО */
 
