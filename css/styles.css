@@ -444,20 +444,15 @@ img {
   display: flex;
 }
 
-.trademark-item {
-  width: 170px;
-  height: 92px;
-  border: 1px solid var(--main-icon-fill-color);
-  border-radius: 4px;
-}
-
 .trademark-item:not(:last-child){
 margin-right: 30px;
 }
 
 .trademark-link {
-  width: 100%;
-  height: 100%;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--main-icon-fill-color);
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
